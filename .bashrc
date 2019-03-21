@@ -118,4 +118,10 @@ fi
 
 source .my_custom_commands.sh
 
-export PATH=$PATH:.:/mnt/c/'program files'/java/jre1.8.0_191/bin
+export PATH=$PATH:.:/usr/bin/idea-IC-183.5912.21/bin
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/len/google-cloud-sdk/path.bash.inc' ]; then . '/home/len/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/len/google-cloud-sdk/completion.bash.inc' ]; then . '/home/len/google-cloud-sdk/completion.bash.inc'; fi
