@@ -6,7 +6,7 @@ function womtool() {
  	 java -jar 'C:\\Program Files\cromwell\womtool-36.jar'  $1 $2
 }		
 function work() {
-	cd /home/len/Programming/MethylationPipeline
+	cd /home/len/Programming/ChipSeqPipeline
 }
 function spark() {
 	/usr/bin/spark-2.4.0-bin-hadoop2.7/bin/$1 $2
